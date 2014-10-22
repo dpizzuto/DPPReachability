@@ -29,7 +29,7 @@ I suggest to setup your DPPReachability inside AppDelegate, particularly in meth
 </code>
 </p>
 
-In every class where you are need to check connection, you can retrieve singleton and then check the BOOL property <code>isReachable</code> that indicate when connection available or not.
+In every class where you need to check connection, you can retrieve singleton and then check the BOOL property <code>isReachable</code> that indicate when connection available or not.
 
 It's also possibile to use Blocks, called when the OS lost or retrieve the connection, to accomplish some operation.
 You set Blocks, once per class when DPPReachability are used, invoking the method 
