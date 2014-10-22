@@ -18,16 +18,14 @@ DPPReachability *reachManager = [DPPReachability sharedInstance];
 
 And then invoke the method
 <p>
-<code>
-(void)setupReachibilityManagerUrl:(NSString*)url reachableOnWAN:(BOOL)reachOnWan
-</code>
+<code>- (void)setupReachibilityManagerUrl:(NSString*)url reachableOnWAN:(BOOL)reachOnWan</code>
 </p>
 Above method should be called only once.
 
 I suggest to setup your DPPReachability inside AppDelegate, particularly in method 
 <p>
 <code> 
-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 </code>
 </p>
 
@@ -36,9 +34,7 @@ In every class where you are need to check connection, you can retrieve singleto
 It's also possibile to use Blocks, called when the OS lost or retrieve the connection, to accomplish some operation.
 You use Blocks invoking the method 
 
-<code> 
-(void)setupReachableBlock:(DPPReacheableBlock)reachBlock unreachableBlock:(DPPUnreacheableBlock)unreachBlock
-</code>
+<code>- (void)setupReachableBlock:(DPPReacheableBlock)reachBlock unreachableBlock:(DPPUnreacheableBlock)unreachBlock</code>
 
 The <bold>reachableBlock</bold> will be called every time the connection goes up. 
 The <bold>unreachableBlock</bold> will be called every time the connection goes down.
