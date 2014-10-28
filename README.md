@@ -1,17 +1,16 @@
 DPPReachability
 ===============
 
-Is a library built on top of [Reachability](https://github.com/tonymillion/Reachability) by Toni Million that manages 
-the reachability of network Wifi either WAN.
-DPPReachability is based on idea that allows developer to don't create instance Reachability class inside every 
-ViewControlleror use [UIApplication sharedApplication] to share object through different classes 
-but to use a single object through different classes.
+DPPReachability is a library built on top of [Reachability](https://github.com/tonymillion/Reachability) by Toni Million. It manages the reachability of network either Wifi or WAN.
+With DPPReachability you don't have to create multiple Reachability instances classes inside every 
+ViewController or use [UIApplication sharedApplication] to share object through different classes 
+instead you can use a single object through different classes.
 
 The class maintains all advantages of Reachability.
 
-Use
+How to use
 ===
-DPPReachability should be istantiated only once. To istantiate class, you should invoke
+DPPReachability should be istantiated only once. To istantiate a class, you should invoke
 <code>
 DPPReachability *reachManager = [DPPReachability sharedInstance];
 </code>
@@ -29,10 +28,10 @@ I suggest to setup your DPPReachability inside AppDelegate, particularly in meth
 </code>
 </p>
 
-In every class where you need to check connection, you can retrieve singleton and then check the BOOL property <code>isReachable</code> that indicate when connection available or not.
+In every class where you need to check connection, you can retrieve Singleton and then check the BOOL property <code>isReachable</code> that indicate when connection is available or not.
 
-It's also possibile to use Blocks, called when the OS lost or retrieve the connection, to accomplish some operation.
-You set Blocks, once per class when DPPReachability are used, invoking the method 
+It's also possibile to use Blocks when the OS losts or retrieves the connection, to accomplish some operations.
+You set Blocks once per class when DPPReachability is used, invoking the method 
 
 <code>- (void)setupReachableBlock:(DPPReacheableBlock)reachBlock unreachableBlock:(DPPUnreacheableBlock)unreachBlock</code>
 
