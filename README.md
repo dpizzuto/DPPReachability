@@ -38,8 +38,6 @@ You set Blocks once per class when DPPReachability is used, invoking the method
 The <bold>reachableBlock</bold> will be called every time the connection goes up. 
 The <bold>unreachableBlock</bold> will be called every time the connection goes down.
 
-ToDo
-====
 
 
 License
