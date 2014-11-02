@@ -10,6 +10,7 @@ The class maintains all advantages of Reachability.
 
 How to use
 ===
+Copy DPPreachability directory into your project.
 DPPReachability should be istantiated only once. To istantiate a class, you should invoke
 <code>
 DPPReachability *reachManager = [DPPReachability sharedInstance];
