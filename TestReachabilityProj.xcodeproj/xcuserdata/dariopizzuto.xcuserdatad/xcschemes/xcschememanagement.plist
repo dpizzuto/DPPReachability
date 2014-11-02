@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DPPReachability.xcscheme</key>
+		<key>TestReachabilityProj.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A722DCF419F2F9D7009F7F7F</key>
+		<key>A724D5961A068A110035BDBE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A722DD0D19F2F9D7009F7F7F</key>
+		<key>A724D5AF1A068A110035BDBE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

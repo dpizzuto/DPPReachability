@@ -10,7 +10,7 @@
 
 #import "DPPReachability.h"
 
-@interface ViewController : UIViewController<DPPReachabilityProtocol>
+@interface ViewController : UIViewController
 
 @property(nonatomic,weak) IBOutlet UILabel *testLabel;
 

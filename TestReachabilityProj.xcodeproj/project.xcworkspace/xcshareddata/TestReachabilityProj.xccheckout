@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C818824-8C6D-4962-B6C9-CEA82B07FB91</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestReachabilityProj</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>042042425EAD069E68F54B4AB0FE40C03FA10CBD</key>
+		<string>https://github.com/dpizzuto/DPPReachability.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestReachabilityProj.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>042042425EAD069E68F54B4AB0FE40C03FA10CBD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dpizzuto/DPPReachability.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>042042425EAD069E68F54B4AB0FE40C03FA10CBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>042042425EAD069E68F54B4AB0FE40C03FA10CBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DPPReachability</string>
+		</dict>
+	</array>
+</dict>
+</plist>

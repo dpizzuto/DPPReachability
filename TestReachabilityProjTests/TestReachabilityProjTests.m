@@ -1,19 +1,19 @@
 //
-//  DPPReachabilityTests.m
-//  DPPReachabilityTests
+//  TestReachabilityProjTests.m
+//  TestReachabilityProjTests
 //
-//  Created by Dario Pizzuto on 18/10/14.
+//  Created by Dario Pizzuto on 02/11/14.
 //  Copyright (c) 2014 Dario Pizzuto. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface DPPReachabilityTests : XCTestCase
+@interface TestReachabilityProjTests : XCTestCase
 
 @end
 
-@implementation DPPReachabilityTests
+@implementation TestReachabilityProjTests
 
 - (void)setUp {
     [super setUp];
